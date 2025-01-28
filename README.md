@@ -66,8 +66,11 @@ The application will be running at http://localhost:5173.
 ### Components
 
 **App**: The main component that handles the logic for adding, editing, and deleting users. It fetches user data and passes it to the child components.
+
 **UserForm**: A form used to add or edit user details. It takes in the user data as props for editing and handles form submissions for both adding and editing.
+
 **UserList**: Displays the list of users with actions for editing and deleting each user.
+
 **UserItem**: Displays a single user's details and includes buttons to edit or delete the user.
 
 ## API Functions
@@ -75,10 +78,12 @@ The application will be running at http://localhost:5173.
 The following API functions are used to interact with the backend or mock API:
 
 **fetchUsers()**: Fetches the list of users from an API.
+
 **addUser(userData)**: Adds a new user.
+
 **updateUser(userId, updatedData)**: Updates the user with the specified ID.
+
 **deleteUser(userId)**: Deletes the user with the specified ID.
-These functions are located in src/api/userApi.js.
 
 ## Styling
 
@@ -87,12 +92,19 @@ This application uses **Tailwind CSS** for styling. You can modify the design an
 ## Project Structure
 
 /src
+
 /api
+
 userApi.js // Functions for making API calls to manage users
+
 /components
+
 UserForm.jsx // Form component for adding/editing users
+
 UserList.jsx // List component for displaying users
+
 UserItem.jsx // Component for displaying a single user's data
+
 App.jsx // Main component that manages the app state and UI
 
 ## Resources
